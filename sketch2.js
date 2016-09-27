@@ -10,9 +10,9 @@ function setup(){
 }
 
 function draw(){
-  r = random(255, 0, 0, 100);
-  g = random(0, 255, 0, 100);
-  b = random(0, 0, 255, 100);
+  r = random(255, 0, 0, 5);
+  g = random(0, 255, 0, 5);
+  b = random(0, 0, 255, 5);
 
   push();
   translate(60, 80);
